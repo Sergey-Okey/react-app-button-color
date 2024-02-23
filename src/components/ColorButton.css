@@ -1,0 +1,28 @@
+.centered-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.defaultColor,
+.alternateColor {
+	font-size: 18px;
+	padding: 20px 30px;
+	cursor: pointer;
+}
+
+.defaultColor {
+	background-color: #3498db;
+	color: #ffffff;
+}
+button{
+	border: 0;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.297);
+}
+
+.alternateColor {
+	background-color: #e74c3c;
+	color: #ffffff;
+}
